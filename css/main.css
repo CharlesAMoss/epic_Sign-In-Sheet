@@ -53,21 +53,19 @@ aside {
     float: right;
 }
 .site__footer {
-    background: #f5f2f0;
+    background: #428bca;
     border-top: 1px solid #f7aeae;
-}
-.footer__content {
-    padding: 20px;
-    color: #2d3438;
 }
 .footer__content {
     font-weight: 600;
     padding: 20px;
-    color: #2d3438;
+    color:  #f5f2f0;
+    letter-spacing: .15em;
 }
 .footer__content p a {
     text-decoration: none;
-    color: #2d3438;
+    color:  #f5f2f0;
+    transition:.5s;
 }
 .footer__content p a:hover {
     text-decoration: underline;
@@ -275,63 +273,3 @@ aside h2 {
     display: table;
     clear: both;
 }
-
-/* bone yard ================= */
-
-
-/*
-
-.card {
-	margin: 0 auto;
-	width: 56.25%;
-	border: 1px solid #aab6c3;
-	border-radius: 1px;
-	background-color: #5bc0de;
-	box-shadow: 0 3px 6px rgba(0,0,0,.16),
-		0 3px 6px rgba(0,0,0,.23);
-}
-
-/* #0f9d58 green - #F1BF26 yellow */
-
-
-/*
-
-.avatar {
-	border-radius: 50%;
-	border: 1px solid #aab6c3;
-	display: block;
-	margin: 50px auto 70px;
-	width: 225px;
-}
-
-.badge {
-	background: #428bca;
-	border-radius: 50%;
-	box-shadow: 0 3px 6px rgba(0,0,0,.16),
-		0 3px 6px rgba(0,0,0,.23);
-	color:#fff;
-	float: right;
-	font-size: 25px;
-	font-weight: 500;
-	height: 55px;
-	line-height: 1;
-	margin-right: 25px;
-	margin-top: -27px;
-	padding: 15px;
-	text-align: center;
-	width: 55px;
-}
-
-.well {
-	background-color: #fff;
-	padding: 40px 20px;
-}
-
-.well span {
-	font-size: 36px;
-	font-weight: 100;
-	letter-spacing: 1px;
-	line-height: 1;
-}
-
-*/
