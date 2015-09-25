@@ -1,1 +1,16 @@
-doogggsssss
+<article class="main__article full">
+
+            <h2 class="main__title">Class list</h2>
+
+            <ul class="students">
+                    <li ng-repeat="item in filtered = (students | orderBy:'lastName')" class="group">
+                        <img class="student__img" ng-src="{{item.image}}">
+                        <h3 class="student__name" >{{item.name}}</h3>
+
+                        <a ng-show="isHere = false" ng-click="signInStudent(item)" class="signIn__btn">Sign In</a>
+                        <a ng-show="isHere = true" ng-click="signOutStudent(item)" class="signIn__btn">Sign Out</a>
+
+                    </li>
+            </ul>
+
+</article>

@@ -54,7 +54,7 @@ aside {
 }
 .site__footer {
     background: #428bca;
-    border-top: 1px solid #f7aeae;
+    border-top: 1px solid #5bc0de;
 }
 .footer__content {
     font-weight: 600;
@@ -233,6 +233,57 @@ aside h2 {
 
 }
 
+/* ========================= students */
+
+.students {
+    padding: 0;
+    margin: 0 0 2em 0;
+}
+.students li {
+    list-style: none;
+    border-bottom: 1px solid #aab6c3;
+}
+.students li:last-child {
+    border-bottom: 0;
+}
+.student__img {
+    width: 25%;
+    margin: 0 5% 1em 0;
+    float: left;
+    border-radius: 4px;
+}
+.student__name {
+    font-size: 1.5em;
+    margin-bottom: .7em;
+}
+.signIn__btn {
+    color: #2f9d2f;
+    font-size: 1em;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    cursor: pointer;
+    background: #f5f2f0;
+    border-radius: 4px;
+    border: 1px solid #2f9d2f;
+    padding: 10px;
+
+}
+.signIn__btn:hover {
+
+}
+.signOut__btn {
+    color: #2f9d2f;
+    font-size: 1em;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    cursor: pointer;
+    background: #f5f2f0;
+    border-radius: 4px;
+    border: 1px solid #2f9d2f;
+    padding: 10px;
+}
+.signOut__btn:hover {
+
+}
+
 /* ================== picture gallery */
 
 .gallery {
@@ -258,7 +309,6 @@ aside h2 {
 .pull-right {
     float: right;
 }
-
 
 .group:after {
     content: "";
