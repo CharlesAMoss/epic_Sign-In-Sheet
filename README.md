@@ -1,6 +1,6 @@
 # _Who's Here?_
 ## _A sign-in sheet built with AngularJS, 9/25/2015_
-### By Charles Moss
+### By [Charles Moss](https://twitter.com/CharlesMoss)
 ## Description
 _Users can choose between the Student or Teacher page. Students can toggle their status between signed-in and signed-out. Teachers can view which students are signed-in and which are signed-out._
 
@@ -15,12 +15,12 @@ and then navigate to localhost:8000 in your browser.
 _Windows, you can download [Mongoose](https://code.google.com/p/mongoose/), copy it to your project folder, and double-click it to launch a server and open your page in the browser._  
 
 ## Technologies Used
-_This project makes use of: AngularJS and Angular-ui / [ui-router](https://github.com/angular-ui/ui-router)_
+_This project makes use of: [AngularJS](https://angularjs.org/) and Angular-ui / [ui-router](https://github.com/angular-ui/ui-router)_
 
 ### Legal
 Copyright (c) 2015 Charles A Moss
 
-This software is licensed under the MIT license.
+This software is licensed under the [MIT license](https://en.wikipedia.org/wiki/MIT_License).
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
