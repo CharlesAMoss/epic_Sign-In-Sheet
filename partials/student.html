@@ -1,16 +1,20 @@
 <article class="main__article full">
 
-            <h2 class="main__title">Class list</h2>
+    <div class="breadCrumb">
+        <a class="bc__item" ui-sref="home"> home </a> &nbsp;&nbsp;>>&nbsp;&nbsp; <a class="bc__item" ui-sref="teacher"> attendance </a>
+    </div>
 
-            <ul class="students" ng-controller="AttendanceCtrl">
-                    <li ng-repeat="item in filtered = (students | orderBy:'lastName')" class="group">
-                        <img class="student__img" ng-src="{{item.image}}">
-                        <h3 class="student__name" >{{item.name}}</h3>
+    <h2 class="main__title">Class list</h2>
 
-                        <a ng-hide="item.isHere" ng-click="signInStudent(item)" class="signIn__btn">Sign In</a>
-                        <a ng-hide="!item.isHere" ng-click="signOutStudent(item)" class="signOut__btn">Sign Out</a>
+    <ul class="students" ng-controller="AttendanceCtrl">
+        <li ng-repeat="item in filtered = (students | orderBy:'lastName')" class="group">
+            <img class="student__img" ng-src="{{item.image}}">
+            <h3 class="student__name" >{{item.name}}</h3>
 
-                    </li>
-            </ul>
+            <a ng-hide="item.isHere" ng-click="signInStudent(item)" class="signIn__btn">Sign In</a>
+            <a ng-hide="!item.isHere" ng-click="signOutStudent(item)" class="signOut__btn">Sign Out</a>
+
+        </li>
+    </ul>
 
 </article>
