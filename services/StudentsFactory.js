@@ -4,22 +4,22 @@ signIn.factory('StudentsFactory', function StudentsFactory() {
         name: "Juan Epstein",
         lastName: "Epstein",
         image: "/image/epstein.jpg",
-        isHere:false
+        isHere: false
     }, {
         name: "Freddie Washington",
         lastName: "Washington",
         image: "/image/washington.jpg",
-        isHere:false
+        isHere: false
     }, {
         name: "Vincent Barbarino",
         lastName: "Barbarino",
         image: "/image/barbarino.jpg",
-        isHere:false
+        isHere: false
     }, {
         name: "Arnold Horshack",
         lastName: "Horshack",
         image: "/image/horshack.jpg",
-        isHere:false
+        isHere: false
     }];
 
 
