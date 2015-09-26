@@ -22,8 +22,6 @@ signIn.factory('StudentsFactory', function StudentsFactory() {
         isHere: false
     }];
 
-
-
     // factory.addStudent = function() {
     //     var student = { name:factory.studentName, isHere:false };
     //     factory.students.push(student);
